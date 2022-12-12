@@ -30,7 +30,7 @@ export const GifGrid = ({ category }) => {
         isLoading && (<h2 >cargando...</h2>)
       }
       
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 align-items-start">
+      <div class="row row-cols-md-6 align-items-start">
       
         {/*usando destructuracion
         {images.map(({id, title}) => (<li key={id}>{title}</li>))}
